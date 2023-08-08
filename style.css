@@ -1,0 +1,111 @@
+
+  
+  /* Apply the transform when hovering over the heading */
+  .heading-transition:hover {
+    transform: scale(1.2);
+  }
+  
+
+
+
+/* Styling the Body element i.e. Color,
+        Font, Alignment */
+        body {
+            background: linear-gradient(to bottom, #162c77, #92105c);
+
+
+            font-family:Arial, sans-serif, verdana, Tahoma;
+            text-align: center;
+        }
+ 
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+           
+            max-width: 510px;
+            margin: 55px auto;
+            padding: 30px 15px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+            
+        }
+ 
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 30px;
+        }
+ 
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 2px solid #000000;
+            border-radius: 9px;
+            font-family:Arial, sans-serif, verdana, Tahoma;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+
+        }
+
+        /* Rating*/
+        .rating {
+            display: inline-block;
+            border: #000000;
+          }
+          
+          .rating input {
+            display: none;
+          }
+          
+          .rating label {
+            font-size: 25px;
+            padding: 5px;
+            cursor: pointer;
+            float: right;
+            color: #ddd;
+            margin-bottom: 10px;
+          }
+          
+          .rating label::before {
+            content: "\2605";
+          }
+          
+          .rating input:checked ~ label {
+            color: gold;
+          }
+          
+ 
+        /* Styling Button */
+        button {
+            background-color: #200585;
+            transition: background-color 0.3s ease;
+            border: 2px solid #4f97df;
+            border-radius: 9px;
+            font-family: inherit;
+            font-size: 18px;
+            display: block;
+            width: 25%;
+            margin:auto;
+            margin-bottom: 70px;
+
+
+        }
+
+         button:hover{
+            background-color: #cfccda;
+        } 
